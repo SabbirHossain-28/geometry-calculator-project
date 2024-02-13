@@ -28,3 +28,9 @@ function inputValue3(){
     const areaCalculated=getBaseInputValue*getHeightInputValue;
     const areaValue=calculatedArea('area-of-parallelogram',areaCalculated)
 }
+function inputValue4(){
+    const getBaseInputValue=takeInputByInputField('input-field-diameter1');
+    const getHeightInputValue=takeInputByInputField('input-field-diameter2');
+    const areaCalculated=0.5*getBaseInputValue*getHeightInputValue;
+    const areaValue=calculatedArea('area-of-rhombus',areaCalculated)
+}
