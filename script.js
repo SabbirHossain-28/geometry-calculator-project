@@ -34,3 +34,9 @@ function inputValue4(){
     const areaCalculated=0.5*getBaseInputValue*getHeightInputValue;
     const areaValue=calculatedArea('area-of-rhombus',areaCalculated)
 }
+function inputValue5(){
+    const getBaseInputValue=takeInputByInputField('input-field-pentagon-base');
+    const getHeightInputValue=takeInputByInputField('input-field-pentagon-height');
+    const areaCalculated=getBaseInputValue*getHeightInputValue;
+    const areaValue=calculatedArea('area-of-pentagon',areaCalculated)
+}
