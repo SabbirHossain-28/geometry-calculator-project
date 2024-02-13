@@ -22,3 +22,9 @@ function inputValue2(){
     const areaCalculated=getBaseInputValue*getHeightInputValue;
     const areaValue=calculatedArea('area-of-rectangle',areaCalculated)
 }
+function inputValue3(){
+    const getBaseInputValue=takeInputByInputField('input-field-parallelogram-base');
+    const getHeightInputValue=takeInputByInputField('input-field-parallelogram-height');
+    const areaCalculated=getBaseInputValue*getHeightInputValue;
+    const areaValue=calculatedArea('area-of-parallelogram',areaCalculated)
+}
