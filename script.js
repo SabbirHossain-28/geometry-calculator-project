@@ -40,3 +40,9 @@ function inputValue5(){
     const areaCalculated=getBaseInputValue*getHeightInputValue;
     const areaValue=calculatedArea('area-of-pentagon',areaCalculated)
 }
+function inputValue6(){
+    const getBaseInputValue=takeInputByInputField('input-field-ellips-a-axis');
+    const getHeightInputValue=takeInputByInputField('input-field-ellips-b-axis');
+    const areaCalculated=3.14*getBaseInputValue*getHeightInputValue;
+    const areaValue=calculatedArea('area-of-ellips',areaCalculated)
+}
